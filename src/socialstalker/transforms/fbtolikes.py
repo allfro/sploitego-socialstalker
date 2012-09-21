@@ -22,7 +22,6 @@ __status__ = 'Development'
 def getlikes(response, data):
 
     for like in data:
-        like['name'] = normalize('NFKD', like['name']).encode('ascii', 'ignore')
         e = FacebookLike(like['name'])
         e.fromname = like['name']
         e.id = like['id']

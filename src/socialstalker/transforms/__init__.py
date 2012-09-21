@@ -17,6 +17,14 @@ __all__ = [
     'fbtolikes',
     'fblikestocat',
     'fbtourllikes',
-    'fbtolocations'
+    'fbtolocations',
+    'emailtofs',
+    'twittertofs',
+    'phonetofs',
+    'fbidtofs',
+    'fstofacebook',
+    'fstophone',
+    'fstotwitter',
+    'fstofriends'
 ]
 

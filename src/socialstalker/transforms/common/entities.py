@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from sploitego.maltego.message import Entity, EntityField
+from sploitego.maltego.message import Entity, EntityField, Affiliation
 
 __author__ = 'Nadeem Douba'
 __copyright__ = 'Copyright 2012, SocialStalker Project'
@@ -27,4 +27,12 @@ class SocialStalkerEntity(Entity):
 @EntityField(name="url", displayname="URL")
 class FacebookLike(SocialStalkerEntity):
     pass
+
+
+class PacketNinjasEntity(Affiliation):
+    namespace = 'packetninjas'
+
+
+class AffiliationFoursquare(PacketNinjasEntity):
+    name = 'affiliation.Foursquare'
 

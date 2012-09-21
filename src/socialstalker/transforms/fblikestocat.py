@@ -18,7 +18,7 @@ __status__ = 'Development'
 @configure(
     label='To Category [FB]',
     description='Returns the category of the Facebook like.',
-    uuids=['sploitego.v2.DomainToDNSName_Bing'],
+    uuids=['socialstalker.v2.FacebookLikeToCategory_FB'],
     inputs=[( "Social Media", FacebookLike )]
 )
 def dotransform(request, response):
