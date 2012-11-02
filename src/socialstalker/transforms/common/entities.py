@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-from sploitego.maltego.message import Entity, EntityField, Affiliation
+from canari.maltego.message import Entity, EntityField
+from canari.maltego.entities import Affiliation
 
 __author__ = 'Nadeem Douba'
 __copyright__ = 'Copyright 2012, SocialStalker Project'
@@ -35,4 +36,10 @@ class PacketNinjasEntity(Affiliation):
 
 class AffiliationFoursquare(PacketNinjasEntity):
     name = 'affiliation.Foursquare'
+
+
+@EntityField(name="rank")
+@EntityField(name="displayname", propname="displayname", displayname="Display Name")
+class AffiliationSkype(SocialStalkerEntity):
+    name = 'affiliation.Skype'
 

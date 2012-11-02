@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from foursquare import Foursquare
-from sploitego.config import config
+from canari.config import config
 
 __author__ = 'Nadeem Douba'
 __copyright__ = 'Copyright 2012, Sploitego Project'

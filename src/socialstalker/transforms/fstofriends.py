@@ -1,9 +1,8 @@
 #!/usr/bin/env python
-import re
 
-from sploitego.framework import configure
-from socialstalker.transforms.common.entities import AffiliationFoursquare
-from socialstalker.transforms.common.foursquareutils import login
+from canari.framework import configure
+from common.entities import AffiliationFoursquare
+from common.foursquareutils import login
 
 
 __author__ = 'Nadeem Douba'

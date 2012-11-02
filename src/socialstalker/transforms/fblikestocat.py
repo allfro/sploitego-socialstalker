@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-from sploitego.framework import configure
-from sploitego.maltego.message import Phrase
-from socialstalker.transforms.common.entities import FacebookLike
+from canari.framework import configure
+from canari.maltego.entities import Phrase
+from common.entities import FacebookLike
 
 __author__ = 'Nadeem Douba'
 __copyright__ = 'Copyright 2012, Sploitego Project'

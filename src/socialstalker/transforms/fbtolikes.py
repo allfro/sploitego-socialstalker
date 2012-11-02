@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-from sploitego.framework import configure
+from canari.framework import configure
 from facebook import GraphAPIError
-from sploitego.maltego.message import AffiliationFacebook, UIMessage
-from unicodedata import normalize
+from canari.maltego.message import UIMessage
+from canari.maltego.entities import AffiliationFacebook
 from common.entities import FacebookLike
 from socialstalker.resource import imageicon
 from common.facebookutils import login

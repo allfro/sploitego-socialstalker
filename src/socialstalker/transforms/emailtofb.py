@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
 from facebook import GraphAPIError
-from sploitego.framework import configure
-from sploitego.maltego.message import EmailAddress, AffiliationFacebook, UIMessage
+from canari.framework import configure
+from canari.maltego.message import UIMessage
+from canari.maltego.entities import EmailAddress, AffiliationFacebook
 from common.facebookutils import login
 
 __author__ = 'Nadeem Douba'

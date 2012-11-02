@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-from sploitego.framework import configure
-from sploitego.maltego.message import PhoneNumber, AffiliationTwitter
-from socialstalker.transforms.common.entities import AffiliationFoursquare
-from socialstalker.transforms.common.foursquareutils import login
+from canari.framework import configure
+from canari.maltego.entities import AffiliationTwitter
+from common.entities import AffiliationFoursquare
+from common.foursquareutils import login
 
 
 __author__ = 'Nadeem Douba'

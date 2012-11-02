@@ -25,6 +25,8 @@ __all__ = [
     'fstofacebook',
     'fstophone',
     'fstotwitter',
-    'fstofriends'
+    'fstofriends',
+    'emailtoskype',
+    'phonetoskype',
 ]
 

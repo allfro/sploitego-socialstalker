@@ -14,7 +14,7 @@ setup(
         '' : [ '*.gif', '*.png', '*.conf' ] # list of resources
     },
     install_requires=[
-        # Name of packages required for easy_install
+        'canari'
     ],
     dependency_links=[
         # custom links for the install_requires

@@ -1,9 +1,10 @@
 #!/usr/bin/env python
+
 from posix import unlink
 
-from easygui import multenterbox
+from canari.easygui import multenterbox
 from os import path
-from sploitego.utils.fs import cookie, fmutex
+from canari.utils.fs import cookie, fmutex
 from facebook import GraphAPIError, GraphAPI
 
 __author__ = 'Nadeem Douba'
@@ -22,7 +23,6 @@ def login():
     client = None
 
     if not path.exists(cookie('facebook')):
-        import sploitego.hacks.gui
 
         for i in range(0, 3):
             token = multenterbox("Enter a valid Facebook access token", ['Access Token'], [''])[0]
